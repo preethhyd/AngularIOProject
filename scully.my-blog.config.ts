@@ -10,5 +10,11 @@ export const config: ScullyConfig = {
         folder: "./mdfiles"
       }
     },
+    '/posts/:id': {
+      type: 'contentFolder',
+      id: {
+        folder: "./mdfiles"
+      }
+    },
   }
 };
